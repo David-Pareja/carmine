@@ -9,7 +9,7 @@ public class Node {
     public Node(String task, int priority) {
         this.task = task;
         this.priority = priority;
-        this.next = next;
+        //this.next = next;
     }
 
     
