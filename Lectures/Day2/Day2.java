@@ -1,8 +1,6 @@
 import Course;
 import Professor;
 import Student;
-
-package Day2;
 class Day2
 {
     public static void main(String[] args) {

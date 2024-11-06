@@ -1,7 +1,7 @@
 public class Day4 {
 
     public static boolean findDupes(String s){
-        int n = s.length()
+        int n = s.length();
 
         for (int i = 0; i < n; i++){
             char c = s.charAt(i);

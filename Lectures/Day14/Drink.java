@@ -1,3 +1,4 @@
+package Lectures.Day14;
 public class Drink {
     String name;
     private double price;

@@ -1,3 +1,4 @@
+package Lectures.Day5;
 public class Day5 {
     public static int findMinUnsorted(int[] a){
         int smol = Integer.MAX_VALUE;
