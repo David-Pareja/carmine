@@ -90,3 +90,22 @@ class abttime {
     }
 }
 
+// Your code for getting the times is not correct. You wrote this:
+
+//  long startTimeLS = System.nanoTime();
+//         if (index != -1) {
+//             System.err.println("\nLINEAR SEARCH\nFound " + search + " at index: " + index);
+//         } else {
+//             System.err.println(search + " not found in list.");
+//         }
+//         long endTimeLS = System.nanoTime();
+
+// All this is doing is calculating the time it took to write the print statement. You want to do this:
+
+//         long startTimeLS = System.nanoTime();
+//       int index = linearSearch(numbers, search); 
+//       long endTimeLS = System.nanoTime();
+
+// Your report is not correct. Binary search is not "luck" it is always log(n) time. It is really important to know. 
+
+// You are correct the 1m should not show up. That was there to show what happens when you try to search for a not found number

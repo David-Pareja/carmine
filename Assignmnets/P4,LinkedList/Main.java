@@ -37,3 +37,18 @@ public class Main {
         list2.print();
     }
 }
+
+// Just a note, in your merge, you do not need that first loop. Insert handles putting things in order, you just need this code:
+
+// while (current1 != null) {
+
+// mergedList.insert(current1.text);
+// current1 = current1.next;
+
+// }
+// while (current2 != null) {
+
+// mergedList.insert(current2.text);
+// current2 = current2.next;
+
+// }
