@@ -27,7 +27,7 @@ public class PQLL {
         }
 
         Node current = head;
-
+        //o(n)
         while (current.next != null){
             if (n.priority > current.next.priority){
                 n.next = current.next;
@@ -40,5 +40,14 @@ public class PQLL {
         current.next = n;
     }
 
+    //o(1)
+    public Node deleteMax(){
+        if (head == null) return null;
+
+        Node n = head;
+        head = head.next;
+        return n;
+
+    }
 
 }

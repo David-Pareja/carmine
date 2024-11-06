@@ -2,7 +2,7 @@ package Lectures.Daysomething;
 
 public class Node {
     Node next;
-    Int priority;
+    int priority;
 
     String task;
 
