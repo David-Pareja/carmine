@@ -25,6 +25,19 @@ public class PQLL {
             head = n;
             return;
         }
+
+        Node current = head;
+
+        while (current.next != null){
+            if (n.priority > current.next.priority){
+                n.next = current.next;
+                current.next =n;
+                return;
+            }
+            current = current.next;
+        }
+
+        current.next = n;
     }
 
 
