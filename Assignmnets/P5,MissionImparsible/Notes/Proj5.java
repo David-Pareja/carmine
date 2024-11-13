@@ -4,9 +4,13 @@ public class Proj5 {
 
         while (true) {
             int x = html.indexOf("<");
-            int y = html.indexOf("<");  
+            if ( x < 0) break;
+            int y = html.indexOf(">"); 
+            if ( y < 0 ) break; 
             String tag = html.substring(x + 1, y);
-            System.out.println(tag);
+
+
+            //System.out.println(tag);
             html = html.substring(y + 1);
         }
     }
